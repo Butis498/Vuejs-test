@@ -39,3 +39,26 @@ var peliculas_app = new Vue({
     ]  
   }
 })
+
+var turism = new Vue({
+  el: '#turism',
+  data: {
+    items:[
+    {
+      contenido: 'En Tequila puedes recorrer los cultivos de agave a pie o en tren. Además de presenciar la elaboración de la bebida más mexicana, el tequila.', 
+      img: "https://i1.wp.com/blog.vivaaerobus.com/wp-content/uploads/2020/02/Tequila-Jalisco-Mexico.jpg?w=700&ssl=1",
+      page:'https://blog.vivaaerobus.com/lugares-turisticos-mexico/',
+      name:'Tequila, Jalisco'},
+    {
+      contenido:'Probablemente es el recinto cultural más grande dentro de Jalisco, y además el edificio más conservado de Hispanoamérica. La arquitectura de estilo neoclásico, ¡te impactará!',
+      img: "https://i1.wp.com/blog.vivaaerobus.com/wp-content/uploads/2020/02/Teatro-Degollado-en-Guadalajara-Jalisco.jpg?w=700&ssl=1",
+      page:'https://blog.vivaaerobus.com/lugares-turisticos-mexico/',
+      name:'Teatro Degollado en Jalisco'},
+    {
+      contenido:'mpactantes escenas presenciarás cuando conozcas los lugares para visitar en México. Subir al Cerro de la silla es una de las actividades obligadas que no debes dejar pasar cuando visites el norte de México.',
+      img: "https://i2.wp.com/blog.vivaaerobus.com/wp-content/uploads/2020/02/Cerro-de-la-Silla-en-Monterrey.jpg?w=700&ssl=1",
+      page:'https://blog.vivaaerobus.com/lugares-turisticos-mexico/',
+      name:'Cerro de la silla, Monterrey, Nuevo León'}
+    ]  
+  }
+})
